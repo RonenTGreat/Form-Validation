@@ -12,9 +12,30 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
       crossorigin="anonymous"
     />
-    <title>Document</title>
+    <title>Validation</title>
   </head>
   <body>
+    <div class="container">
+      <form id="form">
+        <div class="title">Get Started</div>
+        <div>
+            <label for="username">User Name</label>
+            <i class="fas fa-user"></i>
+            <input 
+            type="text" 
+            name="username"
+            id="username"
+            placeholder="Enter your username"
+            />
+            <i class="fas fa-exlamation-circle failure-icon"></i>
+            <i class="far fa-check-circle success-icon"></i>
+            <div class="error"></div>
+        </div>
+        <div></div>
+        <div></div>
+      </form>
+    </div>
+
     <script src="./main.js"></script>
   </body>
 </html>
