@@ -129,3 +129,39 @@ span{
   cursor: pointer;
 }
 
+.container{
+  display: flex;
+  flex-direction: row;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #f2796e;
+  width: 55%;
+  min-height: 100vh;
+  padding: 10px 20px;
+}
+
+.image{
+  background-image: url("https://svgshare.com/i/_gZ.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 65%;
+}
+
+.text{
+  text-align: center;
+  color: white;
+  font-size: 18px;
+}
+
+form{
+  width: 45%;
+  max-width: none;
+}
+
+
+
